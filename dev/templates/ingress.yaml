@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: kirk-ingress
+  name: nginx-julian-ingress
   namespace: nginx-julian
   labels:
     app: nginx-julian
